@@ -7,7 +7,7 @@ export const pageAnimation = {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.75,
+      duration: 0.5,
       when: "beforeChildren",
       staggerChildren: 0.35,
     },
@@ -44,6 +44,7 @@ export const photoAnim = {
     transition: {
       ease: "easeOut",
       duration: 0.75,
+      delay: 1.75,
     },
   },
 };
